@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: "Lexend Mega", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    z-index: -2;
+  }
+
+.main-landing {
+    padding-top: 70px;
+    display: flex;
+    height: 500px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-landing-text {
+    margin: auto;
+    max-width: 1000px;
+    width: 30%;
+  }
+
+.main-landing-img {
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-landing-img img {
+    height: auto;
+    width: 100%;
+}
+
+#navbar {
+    color: white;
+}
+
+.top-logo {
+    height: 50px;
+}
+
+.next-info {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    position: relative;
+}
+
+.card-body {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    min-height: 300px;
+    background-color: rgba(245, 245, 245, 0.4);
+    
+}
+
+.card {
+    width: 100%;
+    padding: 0;
+}
+
+.card-body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust the opacity here */
+    z-index: 1;
+}
+
+.card-body > * {
+    position: relative;
+    z-index: 2;
+}
+
+.next-info ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0 auto;
+    display: table;
+}
+
+.next-info li {
+    text-align: left;
+}
+
+.currency-info img {
+    height: 40px;
+    width: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.currency-info p {
+    width: 40px;
+    margin: 0;
+    padding: 0;
+}
