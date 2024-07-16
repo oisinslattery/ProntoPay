@@ -27,8 +27,18 @@
                                 <li class="nav-item"><a class="nav-link text-light" href="#">FAQs</a></li>
                             </ul>
                             <div class="d-flex">
-                                <button type="button" class="btn btn-primary px-3 mx-2">Login</button>
-                                <button type="button" class="btn btn-primary px-3 mx-2">Sign up</button>
+                                <a class="login-signup-link">
+                                    <div class="pp-button d-flex flex-column justify-content-center align-items-center">
+                                        <p class="m-0">Login</p>
+                                    </div>
+                                </a>
+                                <a class="login-signup-link" href="https://prontopay.equalsconnect.com/account/open">
+                                    <div class="pp-button d-flex flex-column justify-content-center align-items-center">
+                                        <p class="m-0">Sign Up</p>
+                                    </div>
+                                </a>
+                                <!-- <button type="button" class="btn btn-primary px-3 mx-2">Login</button>
+                                <button type="button" class="btn btn-primary px-3 mx-2">Sign up</button> -->
                             </div>
                         </div>
                         
@@ -38,7 +48,7 @@
             <div class="container text-light">
                 <div class="container pt-5 mt-5">
                     <div class="row align-items-center">
-                        <div class="col-sm-4 d-flex align-items-center">
+                        <div class="col-sm-5 d-flex align-items-center">
                             <div class="intro-info">
                                 <h2>Payments Beyond Borders</h2>
                                 <ul>
@@ -47,19 +57,23 @@
                                     <li>50+ named IBAN accounts</li>
                                 </ul>
                                 <div class="row">
-                                    <div class="col border border-primary mx-2 d-flex flex-column justify-content-center align-items-center">
-                                        <p>Login</p>
-                                    </div>
-                                    <div class="col border border-primary mx-2 d-flex flex-column justify-content-center align-items-center">
-                                        <p>Sign-Up</p>
-                                    </div>
+                                    <a class="login-signup-link">
+                                        <div class="pp-button d-flex flex-column justify-content-center align-items-center m-2 p-1">
+                                            <p class="m-0">Login</p>
+                                        </div>
+                                    </a>
+                                    <a  class="login-signup-link" href="https://prontopay.equalsconnect.com/account/open">
+                                        <div class="pp-button d-flex flex-column justify-content-center align-items-center m-2 p-1">
+                                            <p class="m-0">Sign Up</p>
+                                        </div>
+                                    </a>
                                 </div>
-                                <button type="button" class="btn btn-primary px-3 mx-2">Login</button>
-                                <button type="button" class="btn btn-primary px-3 mx-2">Sign up</button>
+                                <!-- <button type="button" class="btn btn-primary px-3 mx-2">Login</button>
+                                <button type="button" class="btn btn-primary px-3 mx-2">Sign up</button> -->
                                 <p class="mt-3" style="font-size: 0.8rem;">All funds held by FCA regulated institutions</p>
                             </div>
                         </div>
-                        <div class="col-sm-8">
+                        <div class="col-sm-7">
                             <img width="100%" src="images/Dotted map.png"/>
                         </div>
                     </div>
@@ -349,30 +363,70 @@
                     </div>
                 </div>
 
+                <div class="container execution-fingertips-lg">
+                    <h1 class="display-4 mt-5 mb-3">Execution At Your Fingertips</h1>
+                    <div class="row">
+                        <div class="col col-12 col-md-6 p-0 d-flex flex-column justify-content-center align-items-center">
+                            <div class="image-container">
+                                <img src="images/web-browsing.jpg"/>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-md-6  d-flex flex-column justify-content-center align-items-center text-center">
+                            <span>Transact via our online portal</span>
+                            <p>Access your account to transfer or exchange funds 24/7</p>
+                            <div class="pp-button">Access online portal</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-12 col-md-6 d-flex flex-column justify-content-center align-items-center text-center">
+                            <span>Transact via 24/7 hotline</span>
+                            <p>Speak to one of our team over the phone for immediate support, transactions and updates</p>
+                            <div class="pp-button">Use our hotline</div>
+                        </div>
+                        <div class="col col-12 col-md-6 p-0 d-flex flex-column justify-content-center align-items-center ">
+                            <div class="image-container">
+                                <img src="images/telephone.jpg"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-12 col-md-6 p-0 d-flex flex-column justify-content-center align-items-center">
+                            <div class="image-container">
+                                <img src="images/whatsapp.jpg"/>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-md-6 d-flex flex-column justify-content-center align-items-center text-center">
+                            <span>24/7 WhatsApp support</span>
+                            <p>Contact our broker support team any time, any day, for queries</p>
+                            <div class="pp-button">Contact via WhatsApp</div>
+                        </div>
+                    </div>
+                </div>
 
-                <div class="container execution-fingertips">
+                <div class="container execution-fingertips-md">
                     <h1 class="display-4 mt-5 mb-3">Execution At Your Fingertips</h1>
                     <div class="card bg-dark text-white text-center">
                         <div class="row">
-                            <div class="col col-12 col-md-4 p-0">
-                                <div class="card-body d-flex flex-column justify-content-center align-items-center" style="background-image: url('images/house.jpeg');">
+                            <div class="col col-12 col-lg-4 p-0">
+                                <div class="card-body d-flex flex-column justify-content-center align-items-center" style="background-image: url('images/web-browsing.jpg');">
                                     <span>Transact via our online portal</span>
                                     <p>Access your account to transfer or exchange funds 24/7</p>
-                                    <button>Access online portal</button>
+                                    <div class="pp-button">Access online portal</div>
                                 </div>
                             </div>
-                            <div class="col col-12 col-md-4 p-0">
-                                <div class="card-body d-flex flex-column justify-content-center align-items-center" style="background-image: url('images/house.jpeg');">
+                            <div class="col col-12 col-lg-4 p-0">
+                                <div class="card-body d-flex flex-column justify-content-center align-items-center" style="background-image: url('images/telephone.jpg');">
                                     <span>Transact via 24/7 hotline</span>
                                     <p>Speak to one of our team over the phone for immediate support, transactions and updates</p>
-                                    <button>Use our hotline</button>
+                                    <div class="pp-button">Use our hotline</div>
                                 </div>
                             </div>
-                            <div class="col col-12 col-md-4 p-0">
-                                <div class="card-body d-flex flex-column justify-content-center align-items-center" style="background-image: url('images/house.jpeg');">
+
+                            <div class="col col-12 col-lg-4 p-0">
+                                <div class="card-body d-flex flex-column justify-content-center align-items-center" style="background-image: url('images/whatsapp.jpg');">
                                     <span>24/7 WhatsApp support</span>
                                     <p>Contact our broker support team any time, any day, for queries</p>
-                                    <button>Contact via WhatsApp</button>
+                                    <div class="pp-button">Contact via WhatsApp</div>
                                 </div>
                             </div>
                         </div>
@@ -415,7 +469,11 @@
                         </div>
                         <div class="col-sm-6">
                             <p>Open a personal account within 3 hours or a corporate account within 3-5 working days (depending on jurisdiction)</p>
-                            <button type="button" class="btn btn-primary px-3 mx-2">Sign up</button>
+                            <a class="login-signup-link" href="https://prontopay.equalsconnect.com/account/open">
+                                <div class="pp-button d-flex flex-column justify-content-center align-items-center m-2 p-1">
+                                    <p class="m-0">Sign Up</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="apply-img"></div>
@@ -425,16 +483,24 @@
                     <h1 class="display-5"><span style="color: rgb(47,84,196)">ProntoPay</span> is proudly partnered with: </h1>
                     <div class="row mt-5">
                         <div class="col-sm-3 d-flex flex-column align-items-center">
-                            <img src="images/partner logos/iBanFirst.png"/>
+                            <a href="https://ibanfirst.com/security-policy.html" target="_blank">
+                                <img src="images/partner logos/iBanFirst.png"/>
+                            </a>
                         </div>
                         <div class="col-sm-3 d-flex flex-column align-items-center">
-                            <img src="images/partner logos/Equals.png"/>
+                            <a href="https://equalsmoney.com/blog/safeguarding#:~:text=With%20an%20Equals%20Money%20account%2C%20your%20money%20is%20kept%20in,your%20business%2C%20worry%2Dfree.&text=Equals%20Money%20PLC%20is%20authorised,488396" target="_blank">
+                                <img src="images/partner logos/Equals.png"/>
+                            </a>
                         </div>
                         <div class="col-sm-3 d-flex flex-column align-items-center">
-                            <img src="images/partner logos/Ebury.png"/>
+                            <a href="https://ebury.com/e-blog/blog/ebury_post/how-to-keep-your-money-safe-and-secure/amp/" target="_blank">
+                                <img src="images/partner logos/Ebury.png"/>
+                            </a>
                         </div>
                         <div class="col-sm-3 d-flex flex-column align-items-center">
-                            <img src="images/partner logos/GC.png"/>
+                            <a href="https://www.gcpartners.co/security/" target="_blank">
+                                <img src="images/partner logos/GC.png"/>
+                            </a>
                         </div>
                     </div>
                 </div>
