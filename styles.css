@@ -113,3 +113,33 @@ body {
 .partners img{
     width: 150px;
 }
+
+.card-body {
+    overflow: hidden;
+}
+
+.card-body .heading {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.card-body .hover-text {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    text-align: center;
+    width: 100%;
+}
+
+.card-body:hover .heading {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.card-body:hover .hover-text {
+    opacity: 1;
+    transform: translateY(0);
+    bottom: 50%;
+    transform: translateY(50%);
+}
