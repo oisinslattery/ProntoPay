@@ -11,6 +11,11 @@ body {
     z-index: -2;
   }
 
+  .bg-blur {
+    background: transparent;
+    backdrop-filter: blur(10px);
+  }
+
 .main-landing {
     padding-top: 70px;
     display: flex;
@@ -155,12 +160,12 @@ body {
 .pp-button:hover {
     transition: background-color 0.2s ease;
     border: solid rgb(0, 102, 255);
-    background-color: rgb(0, 102, 255);;
+    background-color: rgb(0, 102, 255);
     color: white;
     min-width: 100px;
 }
 
-.login-signup-link {
+.pp-link {
     text-decoration: none;
 }
 
