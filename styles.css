@@ -189,12 +189,12 @@ body {
     object-fit: cover;
 }
 
-.execution-fingertips-md {
+.execution-fingertips-md, .multi-currency-md {
     display: none;
 }
 
 @media (max-width: 767.98px) {
-    .execution-fingertips-lg {
+    .execution-fingertips-lg, .multi-currency-lg {
         display: none;
     }
 
@@ -204,7 +204,7 @@ body {
 
     .execution-fingertips-md .pp-button {
         border: solid rgb(0, 102, 255);
-        background-color: rgb(0, 102, 255);;
+        background-color: rgb(0, 102, 255);
         color: white;
         min-width: 100px;
     }
@@ -219,4 +219,10 @@ body {
     flex-direction: column;
     text-align: center;
     height: 300px; 
+}
+
+.multi-currency-lg .pp-button {
+    width: 150px;
+    margin: 0;
+    padding-left: 28px;
 }
